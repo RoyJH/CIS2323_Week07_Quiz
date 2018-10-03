@@ -2,7 +2,7 @@ package Checkers;
 
 public class Piece{
 		// Class Attributes (GLOBAL)
-		public static enum Color {RED, BLACK};
+		//public static enum Color {RED, BLACK};
 		private static int numberOPieces = 0;
 		
 		// Instance Atrributes
@@ -18,6 +18,11 @@ public class Piece{
 		public void set(Color c){
 			color = c;
 		}
+		
+		public Color getColor(){
+			return color;
+		}
+		
 		
 		// public int pieceCount(){
 			// return numberOPieces;
