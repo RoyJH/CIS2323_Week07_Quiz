@@ -2,11 +2,11 @@ package Checkers;
 
 public class Piece{
 		// Class Attributes (GLOBAL)
-		enum COLOR {RED, BLACK};
+		public static enum Color {RED, BLACK};
 		private static int numberOPieces = 0;
 		
 		// Instance Atrributes
-		private COLOR color;
+		private Color color;
 		private int id;
 		
 		
@@ -15,7 +15,7 @@ public class Piece{
 			numberOPieces++;
 		}
 		
-		public void set (Color c){
+		public void set(Color c){
 			color = c;
 		}
 		
